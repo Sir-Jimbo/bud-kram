@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+   appearance: none;
+}
+
+a {
+   text-decoration: none;
+   &:hover {
+      cursor: pointer;
+   }
+}
+
+img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+h2,
+h3 {
+   line-height: inherit;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+
+h2 {
+   font-size: 30px;
+
+   @media screen and(min-width: 1024px) {
+      font-size: 40px;
+   }
+}
+
+h3 {
+   font-size: 16px;
+}
+
+html,
+body {
+   height: 100%;
+}
+
+body {
+   font-family: "Montserrat", sans-serif;
+   font-size: 14px;
+   line-height: 1.5;
+   color: #333;
+   background: #fff;
+   overflow-x: hidden;
+
+   &.lock {
+      overflow: hidden;
+   }
+}
+
+[class*="__container"] {
+   width: 100%;
+   max-width: 428px;
+   padding: 60px 15px;
+   margin: 0 auto;
+
+   @media screen and(min-width: 428px) {
+      max-width: 768px;
+   }
+   @media screen and(min-width: 768px) {
+      max-width: 1024px;
+   }
+   @media screen and(min-width: 1024px) {
+      max-width: 1200px;
+   }
+}
+
+input,
+textarea {
+   font-family: inherit;
+}

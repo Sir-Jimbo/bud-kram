@@ -1,0 +1,45 @@
+.quiz {
+   &__title,
+   &__step--title {
+      text-align: center;
+   }
+
+   &__form {
+      max-width: 50%;
+      margin: 0 auto;
+   }
+
+   &__step--wrapper {
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+   &__step--item {
+      width: calc((100% - 15px * 2) / 2);
+      margin: 0 30px 30px 0;
+      text-align: center;
+
+      &:nth-child(2n + 2) {
+         margin-right: 0;
+      }
+
+      img {
+         width: 100%;
+         margin: 0 auto;
+         margin-bottom: 10px;
+      }
+
+      input {
+         appearance: auto;
+      }
+   }
+
+   &__step--button {
+      display: flex;
+      margin-right: 0;
+      margin-left: auto;
+      padding: 15px;
+      background-color: #ff9f10;
+      color: #ffffff;
+   }
+}

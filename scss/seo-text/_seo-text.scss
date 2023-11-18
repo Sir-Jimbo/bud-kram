@@ -1,0 +1,11 @@
+.seo-text {
+   &__wrap {
+      border: 2px dashed #f0bb00;
+      border-radius: 20px;
+      padding: 20px;
+   }
+
+   &__description {
+      font-size: 16px;
+   }
+}

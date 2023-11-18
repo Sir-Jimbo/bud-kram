@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Put your description here.">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet" media="print" onload="this.media='all'">
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" media="print"
+      onload="this.onload=null;this.removeAttribute('media');">
+   <noscript>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+   </noscript>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" media="print"
+      onload="this.onload=null;this.removeAttribute('media');">
+   <noscript>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+   </noscript>
+   <link rel="stylesheet" href="/css/style.min.css" media="print"
+      onload="this.onload=null;this.removeAttribute('media');">
+   <noscript>
+      <link rel="stylesheet" href="/css/style.min.css">
+   </noscript>
+   <title>Головна</title>
+</head>
+
+<body>
+   <header class="header">
+      <div class="header__container">
+         <div class="header__logo">
+            <a href="http://link.com" aria-label="Логотип">
+               Logo
+               <!--<img src="" width="200" height="150" alt="Logo" loading="lazy">-->
+            </a>
+         </div>
+         <nav class="header__menu">
+            <ul class="header__menu--list">
+               <li class="header__menu--item">
+                  <a href="http://link.com" aria-label="Головна" class="header__menu--link">Головна</a>
+               </li>
+               <li class="header__menu--item">
+                  <a href="http://link.com" aria-label="Ремонт квартир" class="header__menu--link">Ремонт квартир</a>
+               </li>
+               <li class="header__menu--item">
+                  <a href="http://link.com" aria-label="Дизайн" class="header__menu--link">Дизайн</a>
+               </li>
+               <li class="header__menu--item">
+                  <a href="http://link.com" aria-label="Послуги" class="header__menu--link">Послуги</a>
+               </li>
+               <li class="header__menu--item">
+                  <a href="http://link.com" aria-label="Про нас" class="header__menu--link">Про нас</a>
+               </li>
+               <li class="header__menu--item">
+                  <a href="http://link.com" aria-label="Ціни" class="header__menu--link">Ціни</a>
+               </li>
+               <li class="header__menu--item">
+                  <a href="http://link.com" aria-label="Портфоліо" class="header__menu--link">Портфоліо</a>
+               </li>
+               <li class="header__menu--item">
+                  <a href="http://link.com" aria-label="Контакти" class="header__menu--link">Контакти</a>
+               </li>
+            </ul>
+            <a class="header__callback" href="https://link.com" aria-label="Безкоштовний дзвінок">Безкоштовний
+               дзвінок</a>
+         </nav>
+
+         <div class="header__burger">
+            <div class="header__burger--wrap">
+               <span></span>
+            </div>
+         </div>
+      </div>
+   </header>
+   <section class="hero">
+      <div class="hero__bg" style="background-image: url(/img/hero.webp)"></div>
+      <div class="hero__container">
+         <h1 class="hero__title">Ремонт квартир у Києві та області</h1>
+         <div class="hero__description">
+            <p>
+               3 роки гарантії на всі виконані роботи.
+               Преміум матеріали по оптовим цінам.
+               14 років досвіду.
+            </p>
+            <p>
+               Вкладемось в терміни або повернемо 10% від вартості
+            </p>
+         </div>
+         <div class="hero__links">
+            <a class="hero__link" href="https://link.com" aria-label="Розрахувати вартість ремонту">Розрахувати вартість
+               ремонту</a>
+            <a class="hero__link" href="https://link.com" aria-label="Переглянути виконані роботи">Переглянути виконані
+               роботи</a>
+            <a class="hero__link" href="https://link.com" aria-label="Про компанію">Про компанію</a>
+            <a class="hero__link" href="https://link.com" aria-label="Усі послуги">Усі послуги</a>
+         </div>
+      </div>
+   </section>
+   <section class="quiz">
+      <div class="quiz__container">
+         <h2 class="quiz__title">Розрахувати вартість ремонту квартир</h2>
+         <div class="quiz__content">
+            <form action="" class="quiz__form">
+               <h3 class="quiz__step--title"> Запитання 1. Виберіть тип Вашого об'єкта</h3>
+               <div class="quiz__step--wrapper">
+                  <div class="quiz__step--item">
+                     <picture>
+                        <source srcset="/img/new_building.webp" type="image/webp">
+                        <img src="/img/new_building.webp" alt="" width="250" height="165" loading="lazy">
+                     </picture>
+                     <input type="radio" name="Новобудова" id="" value="Новобудова" aria-label="Новобудова" checked>
+                     <label for="Новобудова">Новобудова</label>
+                  </div>
+                  <div class="quiz__step--item">
+                     <picture>
+                        <source srcset="/img/old_building.webp" type="image/webp">
+                        <img src="/img/old_building.webp" alt="" width="250" height="165" loading="lazy">
+                     </picture>
+                     <input type="radio" name="Вторинне житло" id="" value="Вторинне житло" aria-label="Вторинне житло">
+                     <label for="Вторинне житло">Вторинне житло</label>
+                  </div>
+                  <div class="quiz__step--item">
+                     <picture>
+                        <source srcset="/img/private_house.webp" type="image/webp">
+                        <img src="/img/private_house.webp" alt="" width="250" height="165" loading="lazy">
+                     </picture>
+                     <input type="radio" name="Приватний будинок" id="" value="Приватний будинок"
+                        aria-label="Приватний будинок">
+                     <label for="Приватний будинок">Приватний будинок</label>
+                  </div>
+                  <div class="quiz__step--item">
+                     <picture>
+                        <source srcset="/img/xoffice.webp" type="image/webp">
+                        <img src="/img/xoffice.webp" alt="" width="250" height="165" loading="lazy">
+                     </picture>
+                     <input type="radio" name="Комерційна нерухомість" id="" value="Комерційна нерухомість"
+                        aria-label="Комерційна нерухомість">
+                     <label for="Комерційна нерухомість">Комерційна нерухомість</label>
+                  </div>
+               </div>
+               <button class="quiz__step--button">Далі</button>
+            </form>
+         </div>
+      </div>
+   </section>
+   <section class="infographics">
+      <div class="infographics__container">
+         <h2 class="infographics__title">Що входить до наших послуг</h2>
+         <picture>
+            <source srcset="/img/frame.webp" type="image/webp">
+            <img src="/img/frame.webp" alt="" width="640" height="475" loading="lazy">
+         </picture>
+      </div>
+   </section>
+   <section class="services">
+      <div class="services__container">
+         <h2 class="services__title">Безкоштовні послуги</h2>
+         <div class="services__wrapper">
+            <div class="services__item">
+               <div class="services__item--title">Виїзд спеціаліста і складання кошторису робіт</div>
+               <div class="services__item--description">
+                  Ви можете безкоштовно викликати технічного директора для заміру приміщення і складання кошторису.
+                  Виїзд фахівця здійснюється того ж або наступного дня.
+               </div>
+               <a href="https://link.com" class="services__item--link" aria-label="Отримати кошторис">Отримати
+                  кошторис</a>
+            </div>
+            <div class="services__item">
+               <div class="services__item--title">Аналіз кошторису від конкурентів</div>
+               <div class="services__item--description">
+                  У 92% випадків ми зменшуємо і складаємо більш правильний кошторис, ніж інші компанії в нашій галузі. У
+                  результаті ви отримаєте оптимальне рішення з точки зору ціни та якості.
+               </div>
+               <a href="https://link.com" class="services__item--link" aria-label="Отримати аналіз">Отримати аналіз</a>
+            </div>
+            <div class="services__item">
+               <div class="services__item--title">Розробка необхідних креслень</div>
+               <div class="services__item--description">
+                  При замовленні ремонту в нашій компанії Ви отримуєте необхідний комплект креслень у подарунок!
+               </div>
+               <a href="https://link.com" class="services__item--link" aria-label="Отримати креслення">Отримати
+                  креслення</a>
+            </div>
+            <div class="services__item">
+               <div class="services__item--title">Замовлення індивідуальних меблів</div>
+               <div class="services__item--description">
+                  При замовленні індивідуальних корпусних або м'яких меблів до Вас безкоштовно виїжджає наш фахівець,
+                  обговорює всі деталі та надає всю детальну інформацію і прорахунок, так само запрошує відвідати наш
+                  шоу-рум.
+               </div>
+               <a href="https://link.com" class="services__item--link" aria-label="Викликати спеціаліста">Викликати
+                  спеціаліста</a>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="portfolio">
+      <div class="portfolio__container">
+         <h2 class="portfolio__title">Завершені ремонти, якими ми пишаємося</h2>
+         <p class="portfolio__description">
+            Попри все, в 2022 році ми успішно завершили 12 об’єктів і не плануємо залишати у біді украінське
+            будівництво.
+            Продовжуємо працювати ще наполегливіше!
+         </p>
+         <div class="portfolio__swiper swiper">
+            <div class="portfolio__swiper--wrapper swiper-wrapper">
+               <div class="portfolio__swiper--slide swiper-slide">
+                  <a data-fancybox="gallery" href="/img/hero.webp" aria-label="gallery link">
+                     <img src="/img/hero.webp" width="200" height="150" alt="" />
+                  </a>
+                  <div style="display:none">
+                     <a data-fancybox="gallery" href="/img/hero.webp" aria-label="gallery link">
+                        <img src="/img/hero.webp" />
+                     </a>
+                     <a data-fancybox="gallery" href="https://lipsum.app/id/62/1600x1200" aria-label="gallery link">
+                        <img src="https://lipsum.app/id/62/120x80" />
+                     </a>
+                     <a data-fancybox="gallery" href="https://lipsum.app/id/63/1600x1200" aria-label="gallery link">
+                        <img src="https://lipsum.app/id/63/120x80" />
+                     </a>
+                  </div>
+                  <div class="portfolio__swiper--content">
+                     <div class="portfolio__swiper--title">Новобудова</div>
+                     <div class="portfolio__swiper--description">Під ключ з меблюванням</div>
+                     <div class="portfolio__swiper--tags">
+                        <div class="portfolio__swiper--tag">69 м2</div>
+                        <div class="portfolio__swiper--tag">4 місяці</div>
+                        <div class="portfolio__swiper--tag">Київ</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="portfolio__swiper--slide swiper-slide">
+                  <a data-fancybox="gallery-2" href="/img/new_building.webp" aria-label="gallery link">
+                     <img src="/img/new_building.webp" width="200" height="150" alt="" />
+                  </a>
+                  <div style="display:none">
+                     <a data-fancybox="galler-2" href="/img/new_building.webp" aria-label="gallery link">
+                        <img src="/img/new_building.webp" />
+                     </a>
+                     <a data-fancybox="gallery-2" href="https://lipsum.app/id/62/1600x1200" aria-label="gallery link">
+                        <img src="https://lipsum.app/id/62/120x80" />
+                     </a>
+                     <a data-fancybox="gallery-2" href="https://lipsum.app/id/63/1600x1200" aria-label="gallery link">
+                        <img src="https://lipsum.app/id/63/120x80" />
+                     </a>
+                  </div>
+                  <div class="portfolio__swiper--content">
+                     <div class="portfolio__swiper--title">Новобудова</div>
+                     <div class="portfolio__swiper--description">Під ключ з меблюванням</div>
+                     <div class="portfolio__swiper--tags">
+                        <div class="portfolio__swiper--tag">69 м2</div>
+                        <div class="portfolio__swiper--tag">4 місяці</div>
+                        <div class="portfolio__swiper--tag">Київ</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="portfolio__swiper--slide swiper-slide">
+                  <a data-fancybox="gallery-3" href="/img/old_building.webp" aria-label="gallery link">
+                     <img src="/img/old_building.webp" width="200" height="150" alt="" />
+                  </a>
+                  <div style="display:none">
+                     <a data-fancybox="gallery-3" href="/img/old_building.webp" aria-label="gallery link">
+                        <img src="/img/old_building.webp" />
+                     </a>
+                     <a data-fancybox="gallery-3" href="https://lipsum.app/id/62/1600x1200" aria-label="gallery link">
+                        <img src="https://lipsum.app/id/62/120x80" />
+                     </a>
+                     <a data-fancybox="gallery-3" href="https://lipsum.app/id/63/1600x1200" aria-label="gallery link">
+                        <img src="https://lipsum.app/id/63/120x80" />
+                     </a>
+                  </div>
+                  <div class="portfolio__swiper--content">
+                     <div class="portfolio__swiper--title">Новобудова</div>
+                     <div class="portfolio__swiper--description">Під ключ з меблюванням</div>
+                     <div class="portfolio__swiper--tags">
+                        <div class="portfolio__swiper--tag">69 м2</div>
+                        <div class="portfolio__swiper--tag">4 місяці</div>
+                        <div class="portfolio__swiper--tag">Київ</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="portfolio__swiper--slide swiper-slide">
+                  <a data-fancybox="gallery-4" href="/img/private_house.webp" aria-label="gallery link">
+                     <img src="/img/private_house.webp" width="200" height="150" alt="" />
+                  </a>
+                  <div style="display:none">
+                     <a data-fancybox="gallery-4" href="/img/private_house.webp" aria-label="gallery link">
+                        <img src="/img/private_house.webp" />
+                     </a>
+                     <a data-fancybox="gallery-4" href="https://lipsum.app/id/62/1600x1200" aria-label="gallery link">
+                        <img src="https://lipsum.app/id/62/120x80" />
+                     </a>
+                     <a data-fancybox="gallery-4" href="https://lipsum.app/id/63/1600x1200" aria-label="gallery link">
+                        <img src="https://lipsum.app/id/63/120x80" />
+                     </a>
+                  </div>
+                  <div class="portfolio__swiper--content">
+                     <div class="portfolio__swiper--title">Новобудова</div>
+                     <div class="portfolio__swiper--description">Під ключ з меблюванням</div>
+                     <div class="portfolio__swiper--tags">
+                        <div class="portfolio__swiper--tag">69 м2</div>
+                        <div class="portfolio__swiper--tag">4 місяці</div>
+                        <div class="portfolio__swiper--tag">Київ</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="news">
+      <div class="news__container">
+         <h2 class="news__title">Останні статті</h2>
+         <div class="news__swiper swiper">
+            <div class="news__swiper--wrapper swiper-wrapper">
+               <div class="news__swiper--slide swiper-slide">
+                  <a href="http://link.com" target="_self" rel="noopener noreferrer">
+                     <img src="https://lipsum.app/id/60/200x150" width="200" height="150" alt="" loading="lazy" />
+                  </a>
+                  <div class="news__swiper--content">
+                     <div class="news__swiper--title">
+                        <a href="http://link.com" target="_self" rel="noopener noreferrer">
+                           Дизайн інтер’єру в стилі гранж
+                        </a>
+                     </div>
+                     <div class="news__swiper--description">
+                        Гіпсокартон є популярним матеріалом для ремонту та оздоблення житлових приміщень. ...
+                     </div>
+                  </div>
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+               </div>
+               <div class="news__swiper--slide swiper-slide">
+                  <a href="http://link.com" target="_self" rel="noopener noreferrer">
+                     <img src="https://lipsum.app/id/60/200x150" width="200" height="150" alt="" loading="lazy" />
+                  </a>
+                  <div class="news__swiper--content">
+                     <div class="news__swiper--title">
+                        <a href="http://link.com" target="_self" rel="noopener noreferrer">
+                           Дизайн інтер’єру в стилі гранж
+                        </a>
+                     </div>
+                     <div class="news__swiper--description">
+                        Гіпсокартон є популярним матеріалом для ремонту та оздоблення житлових приміщень. ...
+                     </div>
+                  </div>
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+               </div>
+               <div class="news__swiper--slide swiper-slide">
+                  <a href="http://link.com" target="_self" rel="noopener noreferrer">
+                     <img src="https://lipsum.app/id/60/200x150" width="200" height="150" alt="" loading="lazy" />
+                  </a>
+                  <div class="news__swiper--content">
+                     <div class="news__swiper--title">
+                        <a href="http://link.com" target="_self" rel="noopener noreferrer">
+                           Дизайн інтер’єру в стилі гранж
+                        </a>
+                     </div>
+                     <div class="news__swiper--description">
+                        Гіпсокартон є популярним матеріалом для ремонту та оздоблення житлових приміщень. ...
+                     </div>
+                  </div>
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+               </div>
+               <div class="news__swiper--slide swiper-slide">
+                  <a href="http://link.com" target="_self" rel="noopener noreferrer">
+                     <img src="https://lipsum.app/id/60/200x150" width="200" height="150" alt="" loading="lazy" />
+                  </a>
+                  <div class="news__swiper--content">
+                     <div class="news__swiper--title">
+                        <a href="http://link.com" target="_self" rel="noopener noreferrer">
+                           Дизайн інтер’єру в стилі гранж
+                        </a>
+                     </div>
+                     <div class="news__swiper--description">
+                        Гіпсокартон є популярним матеріалом для ремонту та оздоблення житлових приміщень. ...
+                     </div>
+                  </div>
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+               </div>
+               <div class="news__swiper--slide swiper-slide">
+                  <a href="http://link.com" target="_self" rel="noopener noreferrer">
+                     <img src="https://lipsum.app/id/60/200x150" width="200" height="150" alt="" loading="lazy" />
+                  </a>
+                  <div class="news__swiper--content">
+                     <div class="news__swiper--title">
+                        <a href="http://link.com" target="_self" rel="noopener noreferrer">
+                           Дизайн інтер’єру в стилі гранж
+                        </a>
+                     </div>
+                     <div class="news__swiper--description">
+                        Гіпсокартон є популярним матеріалом для ремонту та оздоблення житлових приміщень. ...
+                     </div>
+                  </div>
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+               </div>
+            </div>
+            <!--
+            <div class="news__swiper--prev swiper-button-prev"></div>
+            <div class="news__swiper--next swiper-button-next"></div>
+            -->
+         </div>
+      </div>
+   </section>
+   <section class="offer">
+      <div class="offer__container">
+         <div class="offer__wrap">
+            <div class="offer__left">
+               <h2 class="offer__title">Залишились питання?</h2>
+               <div class="offer__description">Залиште його у формі нижче і наш менеджер вас проконсультує</div>
+               <form action="" class="offer__form">
+                  <input type="text" name="Ваше ім'я" id="" placeholder="Ваше ім'я" class="offer__name">
+                  <input type="tel" name="Ваш телефон" id="" placeholder="Ваш телефон" class="offer__tel">
+                  <textarea name="Ваше питання" id="" cols="30" rows="10" placeholder="Ваше питання"
+                     class="offer__text"></textarea>
+                  <button type="submit" class="offer__btn">Надіслати</button>
+               </form>
+            </div>
+            <div class="offer__right">
+               <picture>
+                  <source srcset="/img/old_building.webp" type="image/webp">
+                  <img src="/img/old_building.webp" alt="" width="250" height="165" loading="lazy">
+               </picture>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="seo-text">
+      <div class="seo-text__container">
+         <div class="seo-text__wrap">
+            <h2 class="seo-text__title">Скільки коштує ремонт під ключ в Києві від компанії Буд_Крам</h2>
+            <div class="seo-text__description">
+               На жаль, жодна компанія не може назвати вартість за квадратний метр і вказати терміни з точністю до
+               тижня,
+               допоки не дізнається стан приміщення та інші ключові деталі. Тому у нашій компанії процес починається з
+               вибору тарифу. Класичний ремонт – це найекономніший варіант, у якому використовуються бюджетні матеріали,
+               але якісні. Головна його відмінність – класичність.
+
+               Якщо ви хочете додати незвичайні рішення в інтер'єр вашої нерухомості , використовувати цікаві кольори та
+               поєднання, розгляньте наступні варіанти: Базовий або Дизайнерський ремонт . У першому варіанті це дає
+               більший вибір матеріалів, серед яких ви зможете знайти щось за власними уподобаннями. У другому – це
+               створення дизайну та втілення вашого задуму. Ціна трохи вища, але і вони включають набагато більше
+               деталей +
+               можна втілитибудь-які, навіть найскладніші та незвичайні рішення. Що дозволить створити атмосферу та
+               комфорт
+               вашої мрії.
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer class="footer">
+      <div class="footer__container">
+         <div class="footer__wrap">
+            <div class="footer__left">
+               <div class="footer__subtitle">Зв’язатись з нами</div>
+               <div class="footer__description">
+                  <span></span>
+                  <p>Ми онлайн прямо зараз</p>
+               </div>
+               <a href="tel:+380931112121" class="footer__phone">
+                  <img src="/img/icon-phone.svg" alt="" width="15" height="15">
+                  <span>380 93 111 21 21</span>
+               </a>
+               <div class="footer__text">
+                  З понеділка по суботу з 9:00 до 19:00
+               </div>
+               <div class="footer__address">
+                  <img src="/img/icon-pin.svg" alt="" width="15" height="15">
+                  <span>Київ вул. Паркова,19/4 2 поверх</span>
+               </div>
+               <a href="mailto:budkramcom@gmail.com" class="footer__mail">
+                  <img src="/img/icon-email.svg" alt="" width="15" height="15">
+                  <span>design@bud-kram.com</span>
+               </a>
+            </div>
+            <div class="footer__middlle">
+               <div class="footer__subtitle">Підписатись в соцмережах</div>
+               <div class="footer__social">
+                  <a href="https://www.youtube.com/@bud-kram/featured" target="_blank"
+                     rel="noopener noreferrer nofollow" aria-label="youtube">
+                     <img src="/img/icon-youtube.svg" alt="" width="35" height="35">
+                  </a>
+                  <a href="https://www.facebook.com/budkramremont" target="_blank" rel="noopener noreferrer nofollow"
+                     aria-label="facebook">
+                     <img src="/img/icon-facebook.svg" alt="" width="35" height="35">
+                  </a>
+                  <a href="https://instagram.com/bud_kram?igshid=NTc4MTIwNjQ2YQ==" target="_blank"
+                     rel="noopener noreferrer nofollow" aria-label="instagram">
+                     <img src="/img/icon-instagram.svg" alt="" width="35" height="35">
+                  </a>
+                  <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer nofollow"
+                     aria-label="linkedin">
+                     <img src="/img/icon-linkedIn.svg" alt="" width="35" height="35">
+                  </a>
+               </div>
+               <a href="http://link.com" class="footer__btn">Розрахувати вартість</a>
+            </div>
+            <div class="footer__right">
+               <div class="footer__subtitle">Повернутися</div>
+               <div class="footer__menu">
+                  <div class="footer__menu--left">
+                     <ul class="footer__menu--list">
+                        <li class="footer__menu--item">
+                           <a href="http://link.com" class="footer__menu--link" aria-label="Калькулятор">Калькулятор</a>
+                        </li>
+                        <li class="footer__menu--item">
+                           <a href="http://link.com" class="footer__menu--link" aria-label="Коротко про нас">Коротко
+                              про нас</a>
+                        </li>
+                        <li class="footer__menu--item">
+                           <a href="http://link.com" class="footer__menu--link"
+                              aria-label="Дизайн-проект">Дизайн-проект</a>
+                        </li>
+                        <li class="footer__menu--item">
+                           <a href="http://link.com" class="footer__menu--link" aria-label="Портфоліо">Портфоліо</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="footer__menu--right">
+                     <ul class="footer__menu--list">
+                        <li class="footer__menu--item">
+                           <a href="http://link.com" class="footer__menu--link"
+                              aria-label="Інструкція з підбору">Інструкція з підбору</a>
+                        </li>
+                        <li class="footer__menu--item">
+                           <a href="http://link.com" class="footer__menu--link" aria-label="Переваги БудКрам">Переваги
+                              БудКрам</a>
+                        </li>
+                        <li class="footer__menu--item">
+                           <a href="http://link.com" class="footer__menu--link" aria-label="Відгуки клієнтів">Відгуки
+                              клієнтів</a>
+                        </li>
+                        <li class="footer__menu--item">
+                           <a href="http://link.com" class="footer__menu--link"
+                              aria-label="Приймання квартири">Приймання квартири</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script defer src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+   <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script async defer type="text/javascript" src="/js/fancybox.js"></script>
+   <script async defer type="text/javascript" src="/js/slider.js"></script>
+   <script async defer type="text/javascript" src="/js/main.js"></script>
+
+</body>
+
+</html>
