@@ -529,9 +529,11 @@ textarea {
   text-align: center;
 }
 
-.quiz__form {
-  max-width: 50%;
-  margin: 0 auto;
+@media screen and (min-width: 1024px) {
+  .quiz__form {
+    max-width: 50%;
+    margin: 0 auto;
+  }
 }
 
 .quiz__step--wrapper {
@@ -554,11 +556,17 @@ textarea {
 
 .quiz__step--item img {
   width: 100%;
-  height: 250px;
+  height: 70%;
   -o-object-fit: cover;
      object-fit: cover;
   margin: 0 auto;
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .quiz__step--item img {
+    max-height: 250px;
+  }
 }
 
 .quiz__step--item input {
